@@ -1,0 +1,157 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./TO-DO/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
+h1{
+  text-align: center;
+  color: #fff !important;
+  
+}
+
+.no-todos {
+  color: #FFF7F1; 
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Poppins';
+}
+
+.taskBg {
+  background-color: #845050 !important;
+  border: none; 
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 21px;
+  width: 100%; 
+  position: relative;
+  box-sizing: border-box; 
+  color: #fcf3ed;
+  font-family: 'Poppins';
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber{
+  color: #fcf3ed;
+  border: 1px solid #fcf3ed;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .taskText {
+  flex: 1;
+}
+
+
+.taskBg .taskText.done {
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+
+
+::placeholder {
+  color: gray;
+  font-size: 16px; 
+}
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+/*-------------button styles--------------*/
+.btn.btn-custom {
+  background-color: #bd1058; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Poppins';
+}
+
+.btn.btn-custom:hover {
+  background-color: #F6E6CB; 
+  color: #000;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+  gap: 10px; 
+  margin-left: 10px; 
+}
+
+.taskBg .btn-custom-success {
+  background-color: #fc5f93;
+  border: none;
+  color: white;
+}
+
+.taskBg .btn-custom-primary {
+  background-color: #641e29;
+  border: none;
+  color: white;
+}
+
+.taskBg .btn-custom-danger {
+  background-color: #b20404;
+  border: none;
+  color: white;
+}
+
+.taskBg .btn-custom-success:hover{
+  background-color: #F6E6CB;
+  border: none;
+  color: black;
+}
+
+.taskBg .btn-custom-primary:hover {
+  background-color: #F6E6CB;
+  border: none;
+  color: black;
+}
+
+.taskBg .btn-custom-danger:hover {
+  background-color: #F6E6CB;
+  border: none;
+  color: black;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+
+
+.editing-input {
+  flex: 1; 
+  margin-right: 10rem; 
+}
